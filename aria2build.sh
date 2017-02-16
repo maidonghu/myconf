@@ -30,6 +30,7 @@ apt install megatools -y
 
 apt install golang-go -y
 echo export GOPATH=/root/gocode | tee -a ./.profile
+source ./.profile
 echo export PATH=$PATH:$GOPATH/bin | tee -a ./.profile
 source ./.profile
 go get github.com/prasmussen/gdrive
