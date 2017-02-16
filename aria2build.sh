@@ -1,5 +1,5 @@
-#!/bin/sh
-echo -e '\r' | add-apt-repository ppa:jonathonf/ffmpeg-3
+#!/bin/bash
+echo -e "\r" | add-apt-repository ppa:jonathonf/ffmpeg-3
 apt update && apt install ffmpeg aria2 -y
 wget https://github.com/maidonghu/myaria2/blob/master/aria2_1.31.0-1_amd64.deb
 dpkg -i aria2_1.31.0-1_amd64.deb
