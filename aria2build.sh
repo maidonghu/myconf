@@ -29,9 +29,10 @@ aria2c --conf-path=/usr/local/etc/aria2.conf
 apt install megatools -y
 
 apt install golang-go -y
-export GOPATH=/root/gocode
+echo export GOPATH=/root/gocode | tee -a ./.profile
+echo export PATH=$PATH:$GOPATH/bin | tee -a ./.profile
+source ./.profile
 go get github.com/prasmussen/gdrive
-export PATH=$PATH:$GOPATH/bin
 wget https://raw.githubusercontent.com/maidonghu/myaria2/master/token_v2.json
 mkdir .gdrive
 mv token_v2.json .gdrive/token_v2.json
