@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 13 Feb 2017 09:07:17 +0800
+Source: shadowsocks-libev
+Binary: shadowsocks-libev libshadowsocks-libev-dev libshadowsocks-libev2
+Architecture: amd64
+Version: 3.0.2-1
+Distribution: unstable
+Urgency: high
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description:
+ libshadowsocks-libev-dev - lightweight and secure socks5 proxy (development files)
+ libshadowsocks-libev2 - lightweight and secure socks5 proxy (shared library)
+ shadowsocks-libev - lightweight and secure socks5 proxy
+Changes:
+ shadowsocks-libev (3.0.2-1) unstable; urgency=high
+ .
+   * Add session key for AEAD. (SIP007)
+Checksums-Sha1:
+ 9362bcfdbeadbdedb78224e11545615ed32fa2b1 7894 libshadowsocks-libev-dev_3.0.2-1_amd64.deb
+ 3b8d16e181153ef822a87a8721148353aea9f505 77854 libshadowsocks-libev2_3.0.2-1_amd64.deb
+ 88428f99652828bafbd4972daa399c4491da1f4b 176764 shadowsocks-libev_3.0.2-1_amd64.deb
+Checksums-Sha256:
+ d7913e8491c21aac6396e28b940fc19e4029d9a18291d5dbe853641664d0b207 7894 libshadowsocks-libev-dev_3.0.2-1_amd64.deb
+ 15cb90467fd58cf74d92bde17ad836bc94e9c4732c82b7feaa6adb565c053b4f 77854 libshadowsocks-libev2_3.0.2-1_amd64.deb
+ b66e84b14db62bfa8457b837b1d8ddecb8a6edfe4a990bc28dae0878fbf7d6ff 176764 shadowsocks-libev_3.0.2-1_amd64.deb
+Files:
+ f2d1491598e5e0c059bb7955f39634f0 7894 libdevel extra libshadowsocks-libev-dev_3.0.2-1_amd64.deb
+ 23e1c676e9524e80f8fa34931fa88914 77854 libs extra libshadowsocks-libev2_3.0.2-1_amd64.deb
+ db7f561c5fd970fb5edb3e86791dce0f 176764 net extra shadowsocks-libev_3.0.2-1_amd64.deb
